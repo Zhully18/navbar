@@ -7,9 +7,6 @@
   padding-top: 15px;
   
 }
-.header ul li {
-  margin-left: 60px;
-}
 .nav-logo{
   display: flex;
   align-items: center;
@@ -24,7 +21,24 @@
   border-radius: 50%;
   width: 60px;
 }
+
+.nav-menu{
+  display: flex;
+}
+
+.header ul li {
+  margin-left: 60px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 button{
+    border: none;
+    outline: none;
     padding: 18px 35px;
     border-radius: 30px;
     transition: 0.3s all ease;
